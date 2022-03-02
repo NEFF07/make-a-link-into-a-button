@@ -1,0 +1,43 @@
+.btn{
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  width: 100px;
+  padding: 12px;
+  margin: 10px;
+  border-radius: 10px;
+  transition:all 0.1s;
+  text-shadow: 0px -2px rgba(0, 0, 0, 0.452);
+}
+
+.btn:active{
+  transform: translateY(3px);
+}
+.btn.blue{
+  background-color: rgba(26, 87, 255, 0.76);
+  border-bottom: 5px solid rgba(31, 14, 177, 0.219);
+}
+.btn.blue:active{
+  border-bottom: 1px solid;
+}
+.btn.red{
+  background-color: rgb(248, 65, 19);
+  border-bottom: 5px solid rgb(196, 65, 32);
+}
+.btn.red:active{
+  border-bottom: 1px solid;
+}
+.btn.gray{
+  background-color: rgba(95, 95, 95, 0.479);
+  border-bottom: 5px solid rgba(95, 95, 95, 0.253);
+}
+.btn.gray:active{
+  border-bottom: 1px solid;
+}
+
+#team-selector a{
+  display:inline-block;
+}
+#role-selector a{
+  display:inline-block;
+}
